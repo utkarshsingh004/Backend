@@ -14,6 +14,7 @@ app.get('/login',(req,res)=>{
     res.send(`<h1>Please login</h1>`)
 })
 
+<<<<<<< HEAD
 const githubData ={
     "login": "utkarshsingh004",
     "id": 170230471,
@@ -59,6 +60,14 @@ app.get('/github',(req,res)=>{
 // })
 
 app.listen(process.env.PORT,()=>{
+=======
+app.listen(port,()=>{
+>>>>>>> origin/main
     console.log(`Example app listening on port ${port}`);
 
 })
+
+// app.listen(process.env.PORT,()=>{
+//     console.log(`Example app listening on port ${port}`);
+
+// })
